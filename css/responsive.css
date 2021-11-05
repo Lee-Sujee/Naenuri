@@ -64,7 +64,7 @@
          width: 94.8%;
     }
       .mean-container .mean-nav ul li a:hover {
-         color: #fff !important;
+         color: #43960f !important;
     }
      .mean-container .mean-nav ul li li a {
          width: 92%;
@@ -84,6 +84,10 @@
  @media only screen and (min-width: 280px) and (max-width: 599px) {
      .cart-content-right {
          padding-bottom: 5px;
+    }
+    .images_box {
+        display: none;
+        margin: 30px 0;
     }
      .megamenu>.row [class*="col-"] {
          padding: 0px;
@@ -297,6 +301,7 @@ max-width: 71px;
     max-width: 104px;
 }
 .images_box {
+    display: flex;
     margin: 30px 0;
 }
 
